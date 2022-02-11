@@ -1,0 +1,56 @@
+#main {
+    width: auto;
+    margin-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    font-family: '宋体', '楷体';
+}
+
+#main h1, p {
+    text-align: center;
+}
+
+#img-div {
+    display: block;
+    /* width: 1050px; */
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#img-caption {
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+#tribute-info {
+    /* width: 1050px; */
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+    margin-top: 70px;
+    /* width: auto; */
+}
+
+#headline {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.8em;
+}
+
+#tribute-link {
+    padding-left: 40px;
+    color: royalblue;
+}
