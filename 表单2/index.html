@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="title">Form</h1>
+        <p id="description">Please complete your personal information in this form, thank you :)</p>
+
+        <form id="survey-form">
+
+            <div id="name-label">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required minlength="2" maxlength="6"
+                    value="Please enter your name">
+            </div>
+
+            <div id="gender">
+                <label>Gender:</label>
+
+                <div id="choose">
+                    <input type="radio" id="male" name="Gender" checked>
+                    <label for="male">male</label>
+                
+
+                
+                    <input type="radio" id="female" name="Gender">
+                    <label for="female">female</label>
+                </div>
+
+            </div>
+
+            <div id="email-label">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" pattern=".+globex.\com" size="30"
+                    value="Please enter your email" required>
+            </div>
+
+
+            <div id="number-label">
+                <label for="number">Number:</label>
+                <input type="text" name="number" id="number" minilength="11" maxlength="11"
+                    value="Please enter your number" required>
+            </div>
+
+
+
+            <div id="age-label">
+                <label for="dropdown">Age:</label>
+
+                <select id="dropdown">
+
+                    <option value="1">18</option>
+                    <option value="2">19</option>
+                    <option value="3">20</option>
+                    <option value="4">21</option>
+                    <option value="5">22</option>
+
+                </select>
+            </div>
+
+
+            <div id="habit-label">
+                <label for="habit">Habits:</label>
+
+                <input type="checkbox" name="habits"  id="habit" value="sports">sports
+                <input type="checkbox" name="habits"  id="habit" value="read">read
+                <input type="checkbox" name="habits"  id="habit" value="music">music
+                <input type="checkbox" name="habits"  id="habit" value="dance" >dance
+            </div>
+            <div>
+                <label for="else">Suggestion:</label>
+                <textarea id="else" name="else" rows="4" >Tell us your ideas...</textarea>
+            </div>
+
+
+            <div id="submit">
+                <!-- <label for="name">Name:</label> -->
+                <input type="submit" value="Sumbit" id="set">
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

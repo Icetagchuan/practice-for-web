@@ -1,0 +1,98 @@
+body {
+    background-color: #0a3367;
+}
+
+.main {
+    width: 600px;
+    height: 700px;
+    background-color: #f6f4f0;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -300px;
+
+
+}
+
+h1, p {
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    color: rgb(153, 153, 153);
+}
+
+#survey-form {
+    margin: 0 45px;
+}
+
+#name {
+    width: 250px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+#gender {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#choose {
+    display: inline;
+    margin-left: 15px;
+}
+
+#email-label {
+    margin-bottom: 5px;
+
+}
+
+#email {
+    width: 250px;
+    height: 20px;
+    margin-left: 34px;
+
+}
+
+#number {
+    width: 250px;
+    height: 20px;
+    margin-left: 11px;
+
+}
+
+#dropdown {
+    width: 258px;
+    height: 20px;
+    margin-left: 44px;
+    margin-bottom: 5px;
+}
+
+#habit {
+    margin-left: 24px;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+#else {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin-left: 83px;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+#set {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(97, 97, 156);
+    color: azure;
+    border-radius: 0.5em;
+
+}
